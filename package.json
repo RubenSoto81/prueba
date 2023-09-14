@@ -1,0 +1,43 @@
+{
+    "name": "Ruben",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "tsc:w": "tsc -w",
+    "scripts": {
+        "wdio": "wdio run ./wdio.conf.js",
+        "allure-report": "allure generate --clean allure-results && allure open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://devtools.radissonhotels.com/gitlab/qa/rhg_content_regression.git"
+    },
+    "keywords": [],
+    "author": "Ruben",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "^7.3.2",
+        "@rpii/wdio-html-reporter": "^7.7.1",
+        "@types/chai": "^4.3.5",
+        "@types/debug": "^4.1.8",
+        "@types/jquery": "^3.5.16",
+        "@types/node": "^20.4.1",
+        "@wdio/allure-reporter": "^8.12.3",
+        "@wdio/cli": "^8.12.2",
+        "@wdio/cucumber-framework": "^8.16.7",
+        "@wdio/local-runner": "^8.16.7",
+        "@wdio/spec-reporter": "^8.16.7",
+        "allure-commandline": "^2.23.1",
+        "chromedriver": "^115.0.1",
+        "protractor": "^7.0.0",
+        "ts-node": "^10.9.1",
+        "tslint": "^5.12.1",
+        "typescript": "^5.1.6",
+        "wdio-chromedriver-service": "^8.1.1",
+        "wdio-html-nice-reporter": "^8.1.0",
+        "webdriverio": "^8.10.5"
+    },
+    "dependencies": {
+        "chai": "^4.3.7"
+    }
+}
